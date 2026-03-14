@@ -1,6 +1,6 @@
 
 ```
-EmployeeInformationManagementSystem-front
+view
 ├─ package-lock.json
 ├─ package.json
 ├─ vue
