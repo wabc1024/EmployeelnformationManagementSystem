@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      url: jdbc:mysql://localhost:3306/emp_im_system
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: 705279330
+
+mybatis-plus:
+  configuration:
+    auto-mapping-behavior: full
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+  type-aliases-package: com.wabc.pojo
+  mapper-locations: classpath:/mapper/*.xml # mapperxml位置
